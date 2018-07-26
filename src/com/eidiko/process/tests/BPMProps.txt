@@ -1,0 +1,5 @@
+
+hostname=bpm-server.eidikointernal.com
+port=9080
+user=wasadministrator
+password=administrator

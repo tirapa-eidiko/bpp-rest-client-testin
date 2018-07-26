@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<table name="ACCOUNT_CATEGORY">
+		<column>CATEGORY_ID</column>
+		<column>CATEGORY_NAME</column>
+		<row>
+			<value>1</value>
+			<value>Very Important Account</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Important Account</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Not So Important Account</value>
+		</row>
+	</table>
+
+	<table name="REQUEST_TYPE">
+		<column>TYPE_ID</column>
+		<column>TYPE_NAME</column>
+		<row>
+			<value>1</value>
+			<value>Type 1</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Type 2</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Type 3</value>
+		</row>
+	</table>
+
+	<table name="ACCOUNT">
+		<column>ACCOUNT_ID</column>
+		<column>ACCOUNT_NAME</column>
+		<column>EMAIL</column>
+		<column>CATEGORY_ID</column>
+		<row>
+			<value>1</value>
+			<value>ABC</value>
+			<value>sales@abc.com</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>XYZ</value>
+			<value>sales@xyz.com</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>CBA</value>
+			<value>sales@cba.com</value>
+			<value>3</value>
+		</row>
+	</table>
+
+	<table name="REQUEST">
+		<column>REQUEST_ID</column>
+		<column>ACCOUNT_ID</column>
+		<column>DESCRIPTION</column>
+		<column>TYPE_ID</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>A new request for account ABC.</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>2</value>
+			<value>A new request for account XYZ.</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>3</value>
+			<value>A new request for account CBA.</value>
+			<value>3</value>
+		</row>
+	</table>
+</dataset>

@@ -1,0 +1,7 @@
+
+#dbDriver=com.ibm.db2.jcc.DB2Driver
+dbDriver=oracle.jdbc.driver.OracleDriver
+dbUrl=jdbc:oracle:thin:@bpm-server:1521:orcl
+#jdbc:oracle:thin:@bpm-server:1521:orcl
+dbUser=system
+dbPassword=Sarasu10
