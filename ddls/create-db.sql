@@ -108,3 +108,6 @@ Select * from REQUEST;
 
 disconnect current;
 
+
+javac -d "C:\MULE\DOWN_STAIRS\BPM\Content\BPM Testing\BPM JUnit DBUnit Sample\classes" -classpath "%CLASSPATH%;C:\MULE\DOWN_STAIRS\BPM\Content\BPM Testing\BPM JUnit DBUnit Sample\classes" "BPDProcessTests.java"
+

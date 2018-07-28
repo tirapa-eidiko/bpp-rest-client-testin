@@ -46,7 +46,8 @@ public class BPDProcessTests extends DBUnitTestCase {
 	@BeforeClass
 	public static void setUpClass() throws Exception {
 		
-		com.eidiko.log.util.Logging.logConfiguration(System.getProperty("user.dir")+""+File.separatorChar+"bpm-logs");
+		//com.eidiko.log.util.Logging.logConfiguration(System.getProperty("user.dir")+""+File.separatorChar+"bpm-logs");
+		com.eidiko.log.util.Logging.logConfiguration("C:\\MULE\\DOWN_STAIRS\\BPM\\Content\\BPM Testing\\BPM JUnit DBUnit Sample\\classes\\bpm-logs");
 	    log = Logger.getLogger(BPDProcessTests.class);
 	
 		BPMAccess bpmAccess = new BPMAccess(
@@ -60,7 +61,7 @@ public class BPDProcessTests extends DBUnitTestCase {
 		log.info("Handler created");
 		
 		bpmClient = new BPMClientImpl(bpmAccess.getHostname(),
-				bpmAccess.getPort(), handler);
+				bpmAccess.getPort(), handler,false);
 		log.info("foundAuthenticationToken : "+handler.foundAuthenticationToken());
 		log.info("isUsingUserIdentityInContainer : "+handler.isUsingUserIdentityInContainer());
 		log.info("bpmClient created");

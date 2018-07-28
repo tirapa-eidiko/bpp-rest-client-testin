@@ -46,6 +46,13 @@ public abstract class DBUnitTestCase {
 					URL url = this.getClass().getResource(
 							seedFilesMetaData[j].getPath() + File.separatorChar
 									+ seedFiles[i]);
+					if(url == null){
+						log.info("URL IS null112?123 new" );
+						url =new URL("file:///C:/MULE/DOWN_STAIRS/BPM/Content/BPM%20Testing/BPM%20JUnit%20DBUnit%20Sample/classes/com/eidiko/process/tests/DBDataSeedFile.xml");
+					}
+				log.info("URL IS null112? "+url);
+				log.info("URL IS null112? " +url.openStream());
+				
 					IDataSet dataSet = new XmlDataSet(url.openStream());
 					getInsertionMode().execute(connection, dataSet);
 				}

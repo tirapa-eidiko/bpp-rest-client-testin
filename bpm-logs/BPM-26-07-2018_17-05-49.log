@@ -1,0 +1,9 @@
+ERROR   2018-07-26 17:05:49,721 [main] com.eidiko.process.tests.BPDProcessTests  :: User Name : wasadministrator
+INFO    2018-07-26 17:05:49,721 [main] com.eidiko.process.tests.BPDProcessTests  :: Password : administrator
+INFO    2018-07-26 17:05:49,721 [main] com.eidiko.process.tests.BPDProcessTests  :: Handler created
+INFO    2018-07-26 17:05:49,753 [main] com.eidiko.process.tests.BPDProcessTests  :: foundAuthenticationToken : false
+INFO    2018-07-26 17:05:49,753 [main] com.eidiko.process.tests.BPDProcessTests  :: isUsingUserIdentityInContainer : false
+INFO    2018-07-26 17:05:49,753 [main] com.eidiko.process.tests.BPDProcessTests  :: bpmClient created
+INFO    2018-07-26 17:05:49,753 [main] com.eidiko.process.tests.BPDProcessTests  :: utils created
+INFO    2018-07-26 17:05:49,753 [main] com.eidiko.process.tests.BPDProcessTests  :: Gonna Start Process App
+INFO    2018-07-26 17:05:50,624 [main] com.eidiko.process.tests.BPDProcessTests  :: Started Process App
